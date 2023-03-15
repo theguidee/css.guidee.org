@@ -1,5 +1,12 @@
-const Index = () => {
-  return <h1>Ahhh... Hellow??</h1>;
-};
+import { GetServerSideProps } from 'next';
+
+const Index = () => null;
+
+export const getServerSideProps: GetServerSideProps = async () => ({
+  redirect: {
+    destination: 'docs/boxmodel',
+    permanent: true,
+  },
+});
 
 export default Index;
