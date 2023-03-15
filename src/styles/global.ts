@@ -34,6 +34,10 @@ const GlobalStyles = createGlobalStyle`
   a,
   button {
     cursor: pointer;
+
+    & * {
+      cursor: pointer;
+    }
   }
 
   input,
