@@ -2,7 +2,6 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    grid-area: content;
     color: ${theme.colors.text};
 
     h1 {
