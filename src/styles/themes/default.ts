@@ -1,6 +1,6 @@
 const defaultTheme = {
   grid: {
-    container: '104rem',
+    container: '94rem',
   },
 
   border: {
