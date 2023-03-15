@@ -22,8 +22,8 @@ const defaultTheme = {
       xsmall: '1.4rem',
       small: '1.6rem',
       medium: '1.8rem',
-      large: '3.6rem',
-      xlarge: '5.2rem',
+      large: '2.4rem',
+      xlarge: '3.2rem',
     },
   },
 
